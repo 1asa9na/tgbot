@@ -33,6 +33,8 @@ def max_coefficient_cell(brray):
 
 
 exchanges = [i['id'] for i in requests.get("https://api.coingecko.com/api/v3/exchanges?per_page=50").json()]
+print(requests.get("https://api.coingecko.com/api/v3/coins/list").json())
+input()
 print(exchanges)
 array = {}
 symbols = set()

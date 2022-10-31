@@ -1,3 +1,5 @@
-# Default ignored files
+# standart ignore files
 /shelf/
-/workspace.xml
+/workflow.xml
+token.txt
+*.jpg
